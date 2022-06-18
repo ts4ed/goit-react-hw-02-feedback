@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import Feedback from '../Feedback/Feedback';
 import Statistics from '../Statistics/Statistic';
-import s from './Section.module.css';
+import s from './SectionFeedback.module.css';
 
 class Section extends Component {
   state = {

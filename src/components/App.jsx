@@ -1,4 +1,4 @@
-import Section from './Section/Section';
+import Section from './SectionFeedback/SectionFeedback';
 
 export const App = () => {
   return (
