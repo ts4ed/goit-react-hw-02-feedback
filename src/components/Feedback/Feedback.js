@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 export default function Feedback({ options, handFeedback }) {
   return (
     <div>
+      <h5 className={s.title}>Please leave feedback</h5>
       <ul className={s.list}>
         {options.map(option => (
           <li key={option} className={s.item}>
