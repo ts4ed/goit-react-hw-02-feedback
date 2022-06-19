@@ -2,6 +2,9 @@
   list-style: none;
   padding: 0;
 }
+.item {
+  margin-left: 10px;
+}
 .item:not(:last-child) {
   margin-bottom: 20px;
 }
