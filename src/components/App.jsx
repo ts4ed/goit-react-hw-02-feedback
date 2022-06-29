@@ -32,12 +32,12 @@ class App extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-    const { countTotalFeedback, positivePercentage, handFeedback, state } =
-      this;
+    const { countTotalFeedback, positivePercentage, handFeedback } = this;
+    const options = Object.keys(this.state);
     return (
       <div className={s.section}>
         <Section title="Please leave feedback">
-          <Feedback options={Object.keys(state)} handFeedback={handFeedback} />
+          <Feedback options={options} handFeedback={handFeedback} />
         </Section>
         <Section title="Statistics">
           {countTotalFeedback() === 0 ? (

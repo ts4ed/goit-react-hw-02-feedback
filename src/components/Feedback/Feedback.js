@@ -7,7 +7,7 @@ export default function Feedback({ options, handFeedback }) {
         {options.map(option => (
           <li key={option} className={s.item}>
             <button className={s.button} type="submit" onClick={handFeedback}>
-              {option[0].toUpperCase() + option.slice(1)}
+              {option.charAt(0).toUpperCase() + option.slice(1)}
             </button>
           </li>
         ))}
